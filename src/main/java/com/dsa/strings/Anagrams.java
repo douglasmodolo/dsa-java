@@ -2,6 +2,18 @@ package com.dsa.strings;
 
 import java.util.Arrays;
 
+/**
+ * Verificação de Anagrama.
+ *
+ * Dadas duas Strings, verificar se são anagramas,
+ * ou seja, se contêm exatamente as mesmas letras na mesma quantidade.
+ * Retorna false se qualquer entrada for nula ou vazia.
+ *
+ * Exemplos:
+ * "listen", "silent" -> true
+ * "roma",   "amor"   -> true
+ * "java",   "vaga"   -> false
+ */
 public class Anagrams {
 
     public static boolean isAnagram(String str1, String str2) {

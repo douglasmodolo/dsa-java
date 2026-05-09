@@ -2,6 +2,18 @@ package com.dsa.strings;
 
 import java.util.HashSet;
 
+/**
+ * Remoção de Duplicatas.
+ *
+ * Dada uma String, retornar ela sem caracteres repetidos,
+ * mantendo a ordem de aparição.
+ * Retorna string vazia se a entrada for nula ou vazia.
+ *
+ * Exemplos:
+ * "banana" -> "ban"
+ * "java"   -> "jav"
+ * "aabbcc" -> "abc"
+ */
 public class DuplicateRemoval {
 
     public static String removeDuplicates(String str) {

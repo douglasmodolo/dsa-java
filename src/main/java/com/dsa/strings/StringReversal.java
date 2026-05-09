@@ -1,5 +1,15 @@
 package com.dsa.strings;
 
+/**
+ * Inversão de String.
+ *
+ * Dada uma String, retornar ela invertida.
+ * Retorna string vazia se a entrada for nula ou vazia.
+ *
+ * Exemplos:
+ * "Douglas" -> "salguoD"
+ * "Java"    -> "avaJ"
+ */
 public class StringReversal {
     public static String reverse(String str) {
         if (str == null || str.isEmpty())
