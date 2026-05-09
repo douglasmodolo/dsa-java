@@ -30,7 +30,7 @@ public class GroupAnagramsTest {
     }
 
     @Test
-    void deveRetornarMapaVazioQuandoListaNull() {
+    void deveRetornarMapaVazioQuandoListaVazia() {
         List<String> baseList = new ArrayList<>();
         Map<String, List<String>> map = new HashMap<>();
 
@@ -38,7 +38,7 @@ public class GroupAnagramsTest {
     }
 
     @Test
-    void deveRetornarMapaVazioQuandoListaVazia() {
+    void deveRetornarMapaVazioQuandoListaNull() {
         Map<String, List<String>> map = new HashMap<>();
 
         assertEquals(map, GroupAnagrams.group(null));
