@@ -1,9 +1,38 @@
+# DSA Java
+
+Repositório de estudos para preparação de entrevistas técnicas backend Java.
+Foco em algoritmos, estruturas de dados e SQL conforme cobrado em processos seletivos.
+
+---
+
+## 🛠️ Comandos
+
+```bash
+# Build
+mvn compile
+
+# Rodar todos os testes
+mvn test
+
+# Rodar uma classe de testes específica
+mvn test -Dtest=ClassName
+
+# Rodar um método de teste específico
+mvn test -Dtest=ClassName#methodName
+```
+
+---
+
 ## 🗂️ Estrutura do Projeto
 
 ```
 dsa-java/
 ├── README.md
 ├── pom.xml
+├── teoria/
+│   ├── big-o.md
+│   ├── rest-api.md
+│   └── banco-relacional-vs-nosql.md
 └── src/
     └── main/
         └── java/
@@ -40,8 +69,9 @@ Operações fundamentais sobre coleções de dados.
 #### 3. HashMap e HashSet
 Uso de estruturas baseadas em hash para buscas eficientes.
 - Contagem de frequência
-- Verificação de existência
-- Agrupamento de dados
+- Primeiro caractere único
+- Two Sum
+- Agrupamento de anagramas
 - Eliminação de duplicatas
 
 #### 4. Ordenação e Busca
@@ -55,6 +85,7 @@ Algoritmos clássicos e suas aplicações.
 Problemas clássicos de lógica e condicionais.
 - FizzBuzz e variações
 - Números pares e ímpares
+- Fibonacci
 - Sequências e padrões
 - Manipulação de números
 
@@ -98,8 +129,11 @@ Agrupamento e sumarização de dados.
 - Casos de uso de cada um
 - Exemplos: MySQL/PostgreSQL vs MongoDB/Redis
 
+---
+
 ## 🛠️ Tecnologias
 
 - Java 21
 - Maven
+- JUnit Jupiter 5
 - IntelliJ IDEA
